@@ -1,19 +1,28 @@
+# Python
+__pycache__
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 .venv/
 venv/
 env/
+.env
+*.egg-info/
 
-# Database and output files
+# Database
 *.db
-*.html
-*.json
+*.sqlite
 
-# Never commit real log files — may contain sensitive IP/user data
+# NEVER commit real log files — may contain sensitive IPs and user data
 *.log
 access.log
 auth.log
+error.log
 
+# Output files (dashboards with real data)
+*.html
+*.json
+
+# OS
 .DS_Store
-.env
+Thumbs.db
