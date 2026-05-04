@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Database and output files
+*.db
+*.html
+*.json
+
+# Never commit real log files — may contain sensitive IP/user data
+*.log
+access.log
+auth.log
+
+.DS_Store
+.env

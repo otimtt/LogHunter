@@ -1,0 +1,1 @@
+python-geoip2>=4.7.0
