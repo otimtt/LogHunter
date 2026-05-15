@@ -33,7 +33,7 @@ SIEM-lite log analyzer and threat detection engine. Parse Apache/Nginx and SSH l
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/loghunter
+git clone https://github.com/otimtt/LogHunter
 cd loghunter
 python loghunter.py --help
 ```
